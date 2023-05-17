@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "فاصل إعلاني - FaselHD",
+  "version": "1.0",
+  "description": "موقع فاصل إعلاني FaselHD , مشاهدة الافلام والمسلسلات الكاملة والمسلسلات الاسيوية والانميات بأعلى جودة وأفضل ترجمة اون لاين.",
+  "permissions": ["cookies", "history"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "/icon.png"
+  },
+  "icons": {
+    "48": "/icon.png"
+  },
+  "host_permissions": ["<all_urls>"]
+}
